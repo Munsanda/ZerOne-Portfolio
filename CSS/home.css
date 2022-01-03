@@ -26,3 +26,19 @@ hr.solid {
   margin-right: 6.5rem;
 }
 
+body{ 
+  /* background-image: url("/Images/legos.jpg"); */
+  /* background-repeat: repeat-x; */
+  background-color: rgb(135, 135, 190);
+}
+
+.nav-item:hover{
+  /* background-color: rgb(199, 193, 193); */
+  color: black;
+  text-transform:uppercase;
+}
+
+p.sub_headings{
+  
+  border-left:6px solid rgb(142, 142, 173);
+}
