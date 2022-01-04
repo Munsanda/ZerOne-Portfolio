@@ -4,27 +4,22 @@
     font-size: 2em;
   }
 
-  /* Solid border */
-hr.solid {
-    border-top: 3px solid rgb(17, 17, 17);
-    background-color: black;
-  }
-
-#dogspic {
-  height: 500px;
-  overflow: hidden;
-}
-
 .sub_headings {
-  margin-left: 7.5rem;
+  margin-left: 8%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size:x-large;
 }
 
 .ordinary_paragraph {
-  margin-left: 7.5rem;
-  margin-right: 6.5rem;
+  margin-left: 8%;
+  margin-right: 7%;
+}
+
+ul {
+  margin-left: 10%;
+  list-style-type: square;
+
 }
 
 body{ 
@@ -40,6 +35,18 @@ body{
 }
 
 p.sub_headings{
+  
+  border-left:6px solid rgb(142, 142, 173);
+}
+
+.sub_heading_1{
+  margin-left: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:medium;
+}
+
+p.sub_heading_1{
   
   border-left:6px solid rgb(142, 142, 173);
 }
