@@ -56,3 +56,7 @@ p.sub_heading_1{
    left:20%;
    z-index:1;
  }
+
+ .card{
+  box-shadow: 1px -3px 3px 4px rgba(12,12,12,0.2);
+ }
