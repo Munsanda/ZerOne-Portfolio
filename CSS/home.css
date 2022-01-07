@@ -61,3 +61,8 @@ p.sub_heading_1{
   box-shadow: 10px 5px 5px rgb(167, 166, 166);
  }
 
+ footer {
+    display: inline-block;
+    margin-top: 2%;
+ }
+
