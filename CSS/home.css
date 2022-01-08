@@ -28,7 +28,7 @@ ul {
 }
 
 body{ 
-  background-image: url("/Images/keyboard.png");
+  background-image: url(../Images/keyboard.png);
   background-attachment: fixed;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -69,7 +69,22 @@ p.sub_heading_1{
  }
 
  .card{
-  box-shadow: 10px 5px 5px rgb(140, 163, 194);
+  box-shadow: 10px 5px 5px rgb(159, 204, 247);
  }
+
+ @media only screen and (max-width: 630px){
+	/*Big smartphones [426px -> 600px]*/
+  #navbarlist{
+    height: 5%;
+  }
+}
+
+.carousel-inner {
+  margin-bottom: 6%;
+}
+
+#carousel_1{
+  margin-top: 6%;
+}
 
 
