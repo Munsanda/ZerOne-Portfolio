@@ -34,6 +34,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
+ 
 }
 
 .nav-item:hover{
@@ -72,11 +73,9 @@ p.sub_heading_1{
   box-shadow: 10px 5px 5px rgb(159, 204, 247);
  }
 
- @media only screen and (max-width: 630px){
+ @media only screen and (max-width: 1260px){
 	/*Big smartphones [426px -> 600px]*/
-  #navbarlist{
-    height: 5%;
-  }
+ 
 }
 
 .carousel-inner {
@@ -86,5 +85,6 @@ p.sub_heading_1{
 #carousel_1{
   margin-top: 6%;
 }
+
 
 
