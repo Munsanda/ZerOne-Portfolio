@@ -1,3 +1,6 @@
+html{
+  font-size: 62.5%;
+}
 
 .ml3 {
     text-align: center;
@@ -7,6 +10,7 @@
   }
 
 .sub_headings {
+  font-size: 16px;
   margin-left: 8%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -15,6 +19,7 @@
 }
 
 .ordinary_paragraph {
+  font-size: 16px;
   margin-left: 8%;
   margin-right: 7%;
   color: aliceblue;
@@ -26,6 +31,9 @@ ul {
   list-style-type: square;
 
 }
+.navbar{
+  font-size: 16px;
+}
 
 body{ 
   background-image: url(../Images/keyboard.png);
@@ -34,7 +42,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
- 
+  width: 100%;
 }
 
 .nav-item:hover{
@@ -44,12 +52,13 @@ body{
 }
 
 p.sub_headings{
-  
+  font-size: 16px;
   border-left:6px solid rgb(142, 142, 173);
   color: aliceblue;
 }
 
 .sub_heading_1{
+  font-size: 16px;
   margin-left: 9%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -58,7 +67,7 @@ p.sub_headings{
 }
 
 p.sub_heading_1{
-  
+  font-size: 16px;
   border-left:6px solid rgb(142, 142, 173);
   color: aliceblue;
 }
@@ -69,14 +78,9 @@ p.sub_heading_1{
    z-index:1;
  }
 
- .card{
-  box-shadow: 10px 5px 5px rgb(159, 204, 247);
+.album{
+  font-size: 16px;  
  }
-
- @media only screen and (max-width: 1260px){
-	/*Big smartphones [426px -> 600px]*/
- 
-}
 
 .carousel-inner {
   margin-bottom: 6%;
@@ -85,6 +89,102 @@ p.sub_heading_1{
 #carousel_1{
   margin-top: 6%;
 }
+
+
+/* Team css */
+
+.team {
+
+  width: 100%;
+  min-height: 30%;
+  
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container .box {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  margin: 4rem;
+}
+
+.container .box:hover .imgBox {
+  transform: translate(-3.5rem, -3.5rem);
+}
+
+.container .box:hover .content {
+  transform: translate(3.5rem, 3.5rem);
+}
+
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  resize: both;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 1;
+  align-items: flex-end;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.content h2 {
+  display: block;
+  font-size: 2rem;
+  color: #111;
+  font-weight: 500;
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+
+.content span {
+  color: #555;
+  font-size: 1.4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .container .box:hover .content {
+    transform: translate(0, 3.5rem);
+  }
+  .container .box:hover .imgBox {
+    transform: translate(0, -3.5rem);
+  }
+}
+/*# sourceMappingURL=main.css.map */
 
 
 
