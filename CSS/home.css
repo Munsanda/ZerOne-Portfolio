@@ -37,15 +37,6 @@ body{
  
 }
 
-.zeroneimg{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  /* display: flex;
-  justify-content: center; */
-}
-
 .nav-item:hover{
   /* background-color: rgb(199, 193, 193); */
   color: black;
