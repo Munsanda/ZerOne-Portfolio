@@ -28,17 +28,14 @@ ul {
 }
 
 body{ 
+  background-color: rgb(31, 29, 29);
   background-image: url(../Images/keyboard.png);
   background-attachment: fixed;
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
   background-size: cover;
- 
-}
+  /* object-fit: cover; */
+} 
 
 .nav-item:hover{
-  /* background-color: rgb(199, 193, 193); */
   color: black;
   text-transform:uppercase;
 }
