@@ -27,31 +27,13 @@ ul {
 
 }
 
-<<<<<<< HEAD
-body{
-=======
 body{ 
   background-color: rgb(31, 29, 29);
->>>>>>> 270f0c6473a89befa2b6aa2a21190a9c24d6a975
   background-image: url(../Images/keyboard.png);
   background-attachment: fixed;
   background-size: cover;
-<<<<<<< HEAD
-
-}
-
-.zeroneimg{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  /* display: flex;
-  justify-content: center; */
-}
-=======
   /* object-fit: cover; */
 } 
->>>>>>> 270f0c6473a89befa2b6aa2a21190a9c24d6a975
 
 .nav-item:hover{
   color: black;
