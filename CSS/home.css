@@ -21,20 +21,20 @@
 }
 
 ul {
-  margin-left: 10%; 
+  margin-left: 10%;
   text-align: right;
   list-style-type: square;
 
 }
 
-body{ 
+body{
   background-image: url(../Images/keyboard.png);
   background-attachment: fixed;
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
   background-size: cover;
- 
+
 }
 
 .zeroneimg{
@@ -53,7 +53,7 @@ body{
 }
 
 p.sub_headings{
-  
+
   border-left:6px solid rgb(142, 142, 173);
   color: aliceblue;
 }
@@ -67,7 +67,7 @@ p.sub_headings{
 }
 
 p.sub_heading_1{
-  
+
   border-left:6px solid rgb(142, 142, 173);
   color: aliceblue;
 }
@@ -84,7 +84,7 @@ p.sub_heading_1{
 
  @media only screen and (max-width: 1260px){
 	/*Big smartphones [426px -> 600px]*/
- 
+
 }
 
 .carousel-inner {
@@ -95,5 +95,190 @@ p.sub_heading_1{
   margin-top: 6%;
 }
 
+/* Support */
+
+.btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+  }
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+  -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+}
+
+.btn.btn-primary {
+  background: #1089ff !important;
+  border-color: #1089ff !important;
+  color: #fff;
+}
+
+  .btn.btn-primary:hover, .btn.btn-primary:focus {
+      border-color: #006fdc !important;
+      background: #006fdc !important;
+  }
+
+#contactForm .error {
+  color: red;
+  font-size: 12px;
+}
+
+#contactForm .form-control {
+  font-size: 16px;
+}
+
+#message {
+  resize: vertical;
+}
+
+#form-message-warning, #form-message-success {
+  display: none;
+}
+
+#form-message-warning {
+  color: red;
+}
+
+#form-message-success {
+  color: #28a745;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 
+.col-md-6 {
+  position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+input,
+button,
+select,
+optgroup,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 15px;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+.btn {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.12);
+  position: relative;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+      -webkit-transition: none;
+      -o-transition: none;
+      transition: none;
+  }
+}
+
+.btn:hover, .btn:active, .btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+  -moz-box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+  box-shadow: 0px 10px 20px -6px rgba(0, 0, 0, 0.22) !important;
+}
+
+.btn.btn-primary {
+  background: #1089ff !important;
+  border-color: #1089ff !important;
+  color: #fff;
+}
+
+  .btn.btn-primary:hover, .btn.btn-primary:focus {
+      border-color: #006fdc !important;
+      background: #006fdc !important;
+  }
+
+#contactForm .error {
+  color: red;
+  font-size: 12px;
+}
+
+#contactForm .form-control {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#message {
+  resize: vertical;
+}
+
+#form-message-warning, #form-message-success {
+  display: none;
+}
+
+#form-message-warning {
+  color: red;
+}
+
+#form-message-success {
+  color: #28a745;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.submitting {
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+}
